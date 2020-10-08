@@ -1,0 +1,189 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: url("wal1.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+#gambar {
+    position: absolute;
+    width: 20%;
+    top: -12%;
+    left: -50px;
+    z-index: -1;
+}
+
+header {
+    position: sticky;
+}
+
+h1 {
+    font-size: 50px;
+    padding-right: 40px;
+    width: 170px;
+    margin-left: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #ecf0f1;
+}
+
+h3 {
+    font-size: 25px;
+    background:linear-gradient(125deg,#e74c3c,#f1c40f);
+    width: 11%;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#list {
+    margin-left: -20px;
+    padding-bottom: 5px;
+}
+
+#list li {
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#list a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    background: #e67e22;
+    width: 100%;
+    padding: 10px;
+    margin-right: 80px;
+}
+
+#list li a:hover {
+    color: #2c3e50;
+    transition: 0.5s;
+    right: 0;
+}
+
+hr {
+    position: absolute;
+    width: 97%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -30px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin-left: 20px;
+    display: flex;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.container:before {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    margin-top: -10px;
+    padding-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 20px;
+    background: linear-gradient(125deg,#2c3e50,#ecf0f1);
+    border-radius: 15px;
+}
+
+.column p {
+    padding: 10px;
+}
+
+footer {
+    background: #2c3e50;
+    width: 97%;
+    margin-left: 20px;
+}
+
+.try {
+    margin-top: 10px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.bawahfooter {
+    position: absolute;
+    margin-bottom: 10px;
+    width: 94%;
+    margin-left: 20px;
+}
+
+.bawah {    
+    position: absolute;
+    color: #ecf0f1;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: -20px;
+}
+
+.bawahul {
+    color: #f1c40f;
+    margin-top: 40px;
+    list-style-type: square;
+}
+
+.bawahul li {
+    padding-bottom: 10px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width:780px) {
+    #list a {
+        color: white;
+        text-decoration: none;
+        background: #e67e22;
+        width: 80%;
+        padding: 10px;
+        margin-right: 20px;
+        float: left;
+    }
+
+    h3 {
+        width: 30%;
+    }
+
+    .container {
+        display: grid;
+        
+    }
+
+    hr {
+        width: 92%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    footer {
+        width: 91%;
+    }
+
+    .bawahfooter {
+        width: 82%;
+    }
+
+    .column {
+        width: 95%;
+        margin-bottom: 20px;
+    }
+  }
+  
