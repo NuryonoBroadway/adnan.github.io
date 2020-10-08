@@ -1,0 +1,144 @@
+#player {
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 450px;
+}
+
+#image img{
+    align-items: center;
+    position: absolute;
+    width: 20%;
+    padding-top: 5px;
+}
+
+#songTitle {
+    position: absolute;
+    margin-top: 255px;
+}
+
+.h1_1 {
+    width:400px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -5px;
+    font-size: 20px;
+    margin-left: -25px;
+    padding-right: 100px;
+    text-align: left;
+    height: 50px;
+}
+
+.p1_1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -25px;
+    margin-top: 60px;
+    font-size: 15px;
+    background-color: #34495e;
+    color: #ecf0f1;
+}
+
+#buttons {
+    transform: translate(10%);
+    align-items: center;
+    position: absolute;
+    margin-top: 380px;
+}
+
+.play > button{
+    position: absolute;
+    width: 200px;
+    outline: none;
+    background-color:#e74c3c;
+    border: 0;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.play > button:hover{
+    background-color: #2c3e50;
+}
+
+.divide {
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 45px;
+    padding-right: 260px;
+    border: 2px solid #e74c3c;
+    border-radius: 80px;
+}
+section > div {
+    height: 5px;
+    background: linear-gradient(125deg, #ecf0f1, #2980b9);
+    border-radius: 20px;
+}
+.control > section{
+    width: 250px;
+    height: 5px;
+    position: absolute;
+    margin-top: 365px;
+    margin-left: -20px;
+    background-color:gray;
+    display: flex;
+    justify-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.handle{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin-left: -5px;
+    
+}
+.handle:hover {
+    background-color: #ecf0f1;
+    transform: scale(3);
+    transition: 0.3s;
+}
+
+audio {
+    width: 250px;
+    align-items: center;
+    outline: none;
+}
+
+.time > span{
+    color: #ecf0f1;
+    position: absolute;
+    margin-top: 325px;
+    margin-left: 80px;
+    background-color: #e74c3c;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+
+@media screen and (max-width:780px) {
+    #image img {
+        position: absolute;
+        width: 60%;
+        margin-left: 5px;
+    }
+
+    .h1_1 {
+        margin-top: 15px;
+    }
+
+    .divide {
+        padding-left: 100px;
+    }
+
+    .p1_1 {
+    }
+
+    #seek-bar {
+        width: 360px;
+    }
+
+    #play {
+        margin-left: 60px;
+    }
+}

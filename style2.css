@@ -1,0 +1,21 @@
+.gambar {
+    max-width: 100%;
+    border: 2px solid azure;
+    display: block;
+    width: 100%;
+    height: auto;
+    background-repeat: repeat-x;
+    margin-top: -20px;
+
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    color: azure;
+    font-size: 80px;
+    transform: translate(50%, 50%);
+    right: 50%;
+    top: 30%;
+}
+
